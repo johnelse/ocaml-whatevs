@@ -1,0 +1,4 @@
+(library
+ (name markov_names_libs)
+ (libraries result)
+)

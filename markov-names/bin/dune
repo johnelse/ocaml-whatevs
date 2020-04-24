@@ -1,0 +1,9 @@
+(executables
+ (names markov_names)
+ (libraries cmdliner markov_names_libs)
+)
+
+(install
+ (section bin)
+ (files (markov_names.exe as markov-names))
+)
